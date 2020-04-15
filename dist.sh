@@ -15,7 +15,10 @@ cp -rp ../../vendor .
 
 mkdir tmp
 mkdir cache
-cp -rp ../../files .
+
+#cp -rp ../../files .
+mkdir files
+
 cp -rp ../../flmngr.php .
 cd ..
 
@@ -34,3 +37,11 @@ cp -rp ../../vendor .
 
 cp -rp ../../flmngr-d8.php flmngr.php
 cd ..
+
+
+# TODO: J3
+
+# add this right after "namespace xxxx;"
+#
+#// No direct access to this file
+#defined('_JEXEC') or die('Restricted access');
