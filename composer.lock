@@ -53,16 +53,16 @@
         },
         {
             "name": "edsdk/flmngr-server-php",
-            "version": "1.0.29",
+            "version": "1.0.31",
             "source": {
                 "type": "git",
                 "url": "https://github.com/edsdk/flmngr-server-php.git",
-                "reference": "73185a93d43de5523b286e1d0d85fc73b46fd2a1"
+                "reference": "b5ee8fa624339691ed865fd76572e5db3cda60be"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/edsdk/flmngr-server-php/zipball/73185a93d43de5523b286e1d0d85fc73b46fd2a1",
-                "reference": "73185a93d43de5523b286e1d0d85fc73b46fd2a1",
+                "url": "https://api.github.com/repos/edsdk/flmngr-server-php/zipball/b5ee8fa624339691ed865fd76572e5db3cda60be",
+                "reference": "b5ee8fa624339691ed865fd76572e5db3cda60be",
                 "shasum": ""
             },
             "require": {
@@ -100,9 +100,9 @@
             ],
             "support": {
                 "issues": "https://github.com/edsdk/flmngr-server-php/issues",
-                "source": "https://github.com/edsdk/flmngr-server-php/tree/1.0.29"
+                "source": "https://github.com/edsdk/flmngr-server-php/tree/1.0.31"
             },
-            "time": "2020-07-24T15:11:57+00:00"
+            "time": "2020-11-01T12:55:48+00:00"
         }
     ],
     "packages-dev": [],
