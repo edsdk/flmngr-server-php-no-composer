@@ -1,6 +1,6 @@
 #!/bin/sh
 set -e
-composer install
+composer update
 
 rm -rf dist
 mkdir dist
