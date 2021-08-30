@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "edsdk/file-uploader-server-php",
-            "version": "1.0.32",
+            "version": "1.0.34",
             "source": {
                 "type": "git",
                 "url": "https://github.com/edsdk/file-uploader-server-php.git",
-                "reference": "5f84c9cf96c0285f51545c8a500c0dec386ad5e4"
+                "reference": "b7a8cd3099683ee1fe18bd8dd9c9d654d23035e4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/edsdk/file-uploader-server-php/zipball/5f84c9cf96c0285f51545c8a500c0dec386ad5e4",
-                "reference": "5f84c9cf96c0285f51545c8a500c0dec386ad5e4",
+                "url": "https://api.github.com/repos/edsdk/file-uploader-server-php/zipball/b7a8cd3099683ee1fe18bd8dd9c9d654d23035e4",
+                "reference": "b7a8cd3099683ee1fe18bd8dd9c9d654d23035e4",
                 "shasum": ""
             },
             "type": "library",
@@ -45,28 +45,24 @@
                 "server",
                 "upload"
             ],
-            "support": {
-                "issues": "https://github.com/edsdk/file-uploader-server-php/issues",
-                "source": "https://github.com/edsdk/file-uploader-server-php/tree/1.0.32"
-            },
-            "time": "2021-03-22T15:24:48+00:00"
+            "time": "2021-04-17T15:23:04+00:00"
         },
         {
             "name": "edsdk/flmngr-server-php",
-            "version": "1.0.36",
+            "version": "1.0.39",
             "source": {
                 "type": "git",
                 "url": "https://github.com/edsdk/flmngr-server-php.git",
-                "reference": "7bf86d37cc97a8fde1c5571d75eb441e2377564c"
+                "reference": "4ff26246e68bbf52961e615f187e1af995dae74c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/edsdk/flmngr-server-php/zipball/7bf86d37cc97a8fde1c5571d75eb441e2377564c",
-                "reference": "7bf86d37cc97a8fde1c5571d75eb441e2377564c",
+                "url": "https://api.github.com/repos/edsdk/flmngr-server-php/zipball/4ff26246e68bbf52961e615f187e1af995dae74c",
+                "reference": "4ff26246e68bbf52961e615f187e1af995dae74c",
                 "shasum": ""
             },
             "require": {
-                "edsdk/file-uploader-server-php": "^1.0.32",
+                "edsdk/file-uploader-server-php": "^1.0.34",
                 "ext-curl": "*",
                 "ext-gd": "*",
                 "ext-json": "*"
@@ -98,11 +94,7 @@
                 "server",
                 "upload"
             ],
-            "support": {
-                "issues": "https://github.com/edsdk/flmngr-server-php/issues",
-                "source": "https://github.com/edsdk/flmngr-server-php/tree/1.0.36"
-            },
-            "time": "2021-03-31T14:46:31+00:00"
+            "time": "2021-07-13T11:24:35+00:00"
         }
     ],
     "packages-dev": [],
@@ -117,5 +109,5 @@
         "ext-json": "*"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.0.0"
+    "plugin-api-version": "1.1.0"
 }
