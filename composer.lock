@@ -4,69 +4,23 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1da7ee36f4b770e76595b391387dabec",
+    "content-hash": "b676921c74a98c887b3c98ff6c4a944b",
     "packages": [
         {
-            "name": "edsdk/file-uploader-server-php",
-            "version": "1.0.32",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/edsdk/file-uploader-server-php.git",
-                "reference": "5f84c9cf96c0285f51545c8a500c0dec386ad5e4"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/edsdk/file-uploader-server-php/zipball/5f84c9cf96c0285f51545c8a500c0dec386ad5e4",
-                "reference": "5f84c9cf96c0285f51545c8a500c0dec386ad5e4",
-                "shasum": ""
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "EdSDK\\FileUploaderServer\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "proprietary"
-            ],
-            "authors": [
-                {
-                    "name": "EdSDK",
-                    "email": "edsdk@edsdk.com"
-                }
-            ],
-            "description": "PHP uploader for EdSDK products",
-            "homepage": "https://imgpen.com",
-            "keywords": [
-                "file",
-                "image",
-                "imgpen",
-                "server",
-                "upload"
-            ],
-            "support": {
-                "issues": "https://github.com/edsdk/file-uploader-server-php/issues",
-                "source": "https://github.com/edsdk/file-uploader-server-php/tree/1.0.32"
-            },
-            "time": "2021-03-22T15:24:48+00:00"
-        },
-        {
             "name": "edsdk/flmngr-server-php",
-            "version": "1.0.36",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/edsdk/flmngr-server-php.git",
-                "reference": "7bf86d37cc97a8fde1c5571d75eb441e2377564c"
+                "reference": "a25acd0d3ac9c664ef066edfad9837e576d3565d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/edsdk/flmngr-server-php/zipball/7bf86d37cc97a8fde1c5571d75eb441e2377564c",
-                "reference": "7bf86d37cc97a8fde1c5571d75eb441e2377564c",
+                "url": "https://api.github.com/repos/edsdk/flmngr-server-php/zipball/a25acd0d3ac9c664ef066edfad9837e576d3565d",
+                "reference": "a25acd0d3ac9c664ef066edfad9837e576d3565d",
                 "shasum": ""
             },
             "require": {
-                "edsdk/file-uploader-server-php": "^1.0.32",
                 "ext-curl": "*",
                 "ext-gd": "*",
                 "ext-json": "*"
@@ -83,8 +37,12 @@
             ],
             "authors": [
                 {
-                    "name": "EdSDK",
-                    "email": "edsdk@edsdk.com"
+                    "name": "EdSDK / N1ED / Flmngr team",
+                    "email": "support@n1ed.zendesk.com"
+                },
+                {
+                    "name": "Ilia Kandaurov",
+                    "email": "ilia@kandaurov.su"
                 }
             ],
             "description": "Flmngr file manager PHP backend",
@@ -98,11 +56,7 @@
                 "server",
                 "upload"
             ],
-            "support": {
-                "issues": "https://github.com/edsdk/flmngr-server-php/issues",
-                "source": "https://github.com/edsdk/flmngr-server-php/tree/1.0.36"
-            },
-            "time": "2021-03-31T14:46:31+00:00"
+            "time": "2022-01-21T14:33:51+00:00"
         }
     ],
     "packages-dev": [],
@@ -117,5 +71,5 @@
         "ext-json": "*"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.0.0"
+    "plugin-api-version": "1.1.0"
 }

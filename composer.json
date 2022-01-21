@@ -1,6 +1,5 @@
 {
     "require": {
-        "edsdk/file-uploader-server-php": "*",
         "edsdk/flmngr-server-php": "*",
         "ext-gd": "*",
         "ext-curl": "*",
