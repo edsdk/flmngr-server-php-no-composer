@@ -8,20 +8,21 @@
     "packages": [
         {
             "name": "edsdk/flmngr-server-php",
-            "version": "1.1.0",
+            "version": "1.5.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/edsdk/flmngr-server-php.git",
-                "reference": "a25acd0d3ac9c664ef066edfad9837e576d3565d"
+                "reference": "208bffd985b2e09e5bb2793358ede02052bdbc79"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/edsdk/flmngr-server-php/zipball/a25acd0d3ac9c664ef066edfad9837e576d3565d",
-                "reference": "a25acd0d3ac9c664ef066edfad9837e576d3565d",
+                "url": "https://api.github.com/repos/edsdk/flmngr-server-php/zipball/208bffd985b2e09e5bb2793358ede02052bdbc79",
+                "reference": "208bffd985b2e09e5bb2793358ede02052bdbc79",
                 "shasum": ""
             },
             "require": {
                 "ext-curl": "*",
+                "ext-exif": "*",
                 "ext-gd": "*",
                 "ext-json": "*"
             },
@@ -39,10 +40,6 @@
                 {
                     "name": "EdSDK / N1ED / Flmngr team",
                     "email": "support@n1ed.zendesk.com"
-                },
-                {
-                    "name": "Ilia Kandaurov",
-                    "email": "ilia@kandaurov.su"
                 }
             ],
             "description": "Flmngr file manager PHP backend",
@@ -56,7 +53,11 @@
                 "server",
                 "upload"
             ],
-            "time": "2022-01-21T14:33:51+00:00"
+            "support": {
+                "issues": "https://github.com/edsdk/flmngr-server-php/issues",
+                "source": "https://github.com/edsdk/flmngr-server-php/tree/1.5.8"
+            },
+            "time": "2023-06-07T13:30:21+00:00"
         }
     ],
     "packages-dev": [],
@@ -71,5 +72,5 @@
         "ext-json": "*"
     },
     "platform-dev": [],
-    "plugin-api-version": "1.1.0"
+    "plugin-api-version": "2.3.0"
 }
